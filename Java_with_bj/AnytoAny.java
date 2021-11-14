@@ -69,5 +69,6 @@ class AnytoAny
             String y=obj.dtoa(x,n2);
             System.out.println(y);
         }
+        sc.close();
     }
 }
