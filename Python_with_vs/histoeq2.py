@@ -26,6 +26,10 @@ res = np.hstack((img, img2))
 msg='Image'
 cv.imshow(msg, res)
 
+#cv.waitKey(0)
+#cv.destroyAllWindows()
+#Remove the about 2 comments if not using vs code
+
 hist2,bins = np.histogram(img2.flatten(),256,[0,256])
 
 cdf2 = hist2.cumsum()
