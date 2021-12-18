@@ -1,5 +1,7 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active"
 }
