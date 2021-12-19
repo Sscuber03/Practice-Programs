@@ -8,7 +8,7 @@
 import java.util.*;//Importing Scanner class
 class Bouncy
 {//Starting class 
-    public static void main()
+    public static void main(String args[])
     {//Starting main method
         Bouncy obj=new Bouncy();//Creating object
         Scanner sc=new Scanner(System.in);
@@ -26,6 +26,7 @@ class Bouncy
         {
             System.out.println("The number "+n+" is Bouncy");
         }
+        sc.close();
     }
     boolean isincrease(int x)//Method to check if number is Increasing or not
     {

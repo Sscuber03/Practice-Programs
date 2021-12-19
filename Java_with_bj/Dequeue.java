@@ -10,7 +10,7 @@ class Dequeue
     }
     public void main()
     {
-        int i,n;
+        int i;
         for(i=0;i<MAX;i++)
         {
             arr[i]=0;
@@ -37,7 +37,7 @@ class Dequeue
     }
     void addqatbeg(int item)
     {
-        int i,k,c;
+        int i,k;
         if(front==0 && rear==MAX-1)
         {
             System.out.println("\nDequeue is full.\n");

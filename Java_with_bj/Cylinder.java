@@ -1,14 +1,14 @@
-import java.util.*;
+
 class Cylinder
 {
-    computeVolume(int height,int width,int thickness)
+    void computeVolume(int height,int width,int thickness)
     {
         double r=width/(2*3.14);
         double rr=0.0;
         double volume=0.0;
         if(height<=0||width<=0||thickness<=0||r<=1)
         {
-            System.out.println("Invalid input")
+            System.out.println("Invalid input");
         }
         else
         {

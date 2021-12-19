@@ -9,6 +9,7 @@ class Comp_fibo
         n=sc.nextInt();//user inputed number to check if it is composite fibonacci or not
         a=1;
         b=0;
+        sc.close();
     }
 
     boolean chk_composite(int n)//Method to check if x is composite or not 
@@ -37,7 +38,7 @@ class Comp_fibo
         System.out.println(num);
     }
 
-    public static void main()
+    public static void main(String args[])
     { //Starting main 
         Comp_fibo obj=new Comp_fibo();//Creating object
         int f=0;

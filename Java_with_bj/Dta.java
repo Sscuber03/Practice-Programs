@@ -24,7 +24,7 @@ class Dta
         System.out.println("The converted number is "+ans);
     }
 
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number in decimal base");
@@ -33,6 +33,7 @@ class Dta
         int b=sc.nextInt();
         Dta obj=new Dta();
         obj.convert(a,b);
+        sc.close();
     }
 }
 

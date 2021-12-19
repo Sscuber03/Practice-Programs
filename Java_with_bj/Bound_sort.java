@@ -1,7 +1,7 @@
 import java.util.*;
 class Bound_sort
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of rows and columns of the matrix");
@@ -70,5 +70,6 @@ class Bound_sort
             }
             System.out.println();
         }
+        sc.close();
     }
 }

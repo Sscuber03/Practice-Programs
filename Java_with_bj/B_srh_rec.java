@@ -21,7 +21,7 @@ class B_srh_rec
             return Bsearch(a,l,m-1,n);//If number to be searched is lesser than middle index number, move upper limit to m-1
     }
 
-    public static void main()
+    public static void main(String args[])
     {//Starting main method
         B_srh_rec obj=new B_srh_rec();//Creating object
         Scanner sc=new Scanner(System.in);//Creating scanner class
@@ -40,5 +40,6 @@ class B_srh_rec
             System.out.println("The number is present in the array");//Output if number is found
         else
             System.out.println("The number is not present in the array");//Output if number is not found
+        sc.close();
     }//End of the main method
 }//End of class

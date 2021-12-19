@@ -47,7 +47,7 @@ class Btoany
         return res;
     }
 
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number in binary to convert to any base");
@@ -70,6 +70,7 @@ class Btoany
         {
             System.out.println(a+" in base "+z+" is = "+dec);
         }
+        sc.close();
     }
 }
 

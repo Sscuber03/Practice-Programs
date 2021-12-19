@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 class Amount
 {
     String change(int a)
@@ -58,7 +58,7 @@ class Amount
             x=x+change(d);
         return x;
     }
-    public static void main()
+    public static void main(String args[])
     {
         Amount obj=new Amount();
         Scanner sc=new Scanner(System.in);
@@ -92,6 +92,7 @@ class Amount
         }
         res=res+" rupees and "+obj.change(d)+" paise.";
         System.out.println(res);
+        sc.close();
     }
 }
 

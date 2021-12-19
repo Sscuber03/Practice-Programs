@@ -1,7 +1,7 @@
 import java.util.*;
 class Decode
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the code");
@@ -35,5 +35,6 @@ class Decode
             r1=r;
         }
         System.out.println(ns.toUpperCase());
+        sc.close();
     }
 }

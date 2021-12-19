@@ -1,7 +1,7 @@
 import java.util.*;
 class Date
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of days");
@@ -45,5 +45,6 @@ class Date
             System.out.println("Date: "+copy+"TH "+m[c]+", "+y);
             System.out.println("Date after "+dd+" days: "+copy2+"TH "+m[c2]+", "+y);
         }
+        sc.close();
     }
 }

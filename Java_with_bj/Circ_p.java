@@ -20,7 +20,7 @@ class Circ_p
         return a;
     }
 
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number to check if it is circular prime or not");
@@ -47,6 +47,7 @@ class Circ_p
             System.out.println("Given number is not a circular prime number");
         else
             System.out.println("Given number is a circular prime number");
+        sc.close();    
     }
 }
 

@@ -44,7 +44,7 @@ class AnytoAny
         }
         return ans;
     }
-    public static void main()
+    public static void main(String args[])
     {
         AnytoAny obj=new AnytoAny();
         Scanner sc=new Scanner(System.in);

@@ -1,7 +1,7 @@
 import java.util.*;
 class B_prog
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.print("M=");
@@ -101,6 +101,7 @@ class B_prog
                 System.out.println();
             }
         }
+        sc.close();
     }
 }
 

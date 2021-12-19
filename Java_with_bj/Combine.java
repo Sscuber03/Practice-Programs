@@ -20,6 +20,7 @@ class Combine
         Scanner sc=new Scanner(System.in);
         for(int i=0;i<s;i++)//Loop to take user input
         c[i]=sc.nextInt();
+        sc.close();
     }
     public void sort()
     {//Method to sort array elements in ascending order
@@ -76,5 +77,6 @@ class Combine
         obj3.mix(obj1,obj2);//Calling mix method to combine both arrays
         obj3.sort();//sorting the array
         obj3.display();//printing the sorted array
+        sc.close();
     }//End of main emthod
 }//End of class 

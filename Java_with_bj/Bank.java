@@ -27,7 +27,7 @@ class Bank
         }
     }
 
-    public static void main()
+    public static void main(String args[])
     {//Starting main method
         Bank obj=new Bank();//Creating object
         Scanner sc=new Scanner(System.in);
@@ -64,6 +64,7 @@ class Bank
             System.out.println("TOTAL = "+c1);//Printing out the total amount
             System.out.println("TOTAL NUMBER OF NOTES = "+co);//Printing out the total number of notes
         }
+        sc.close();
     }//End of main method
 }//End of class
 

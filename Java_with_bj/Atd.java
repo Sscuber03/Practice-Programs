@@ -23,7 +23,7 @@ class Atd
         System.out.println(ans);
     }
 
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number with letters in caps lock");
@@ -32,6 +32,7 @@ class Atd
         int t=sc.nextInt();
         Atd obj=new Atd();
         obj.convert(s,t);
+        sc.close();
     }
 }
 

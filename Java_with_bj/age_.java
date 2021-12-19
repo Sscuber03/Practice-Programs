@@ -1,7 +1,7 @@
-import java.util.*;
+import java.util.Scanner;
 class age_
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter DOB in ddmmyyyy format");
@@ -33,5 +33,6 @@ class age_
         month=cm-bm;
         year=cy-by;
         System.out.println(year+" years "+month+" months "+day+" days");
+        sc.close();
     }
 }

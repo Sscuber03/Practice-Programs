@@ -1,12 +1,11 @@
 import java.util.*;
 class Dayname
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         String c[]={"Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"};
         String monthno="144025036146";
-        int k=0,d=0,p=0,r;
         String n;
         System.out.println("Enter the date. DD/MM/YYYY");
         n=sc.nextLine();
@@ -21,5 +20,6 @@ class Dayname
         int t=y+q+dd+mn;
         int rr=t%7;
         System.out.println(c[rr]);
+        sc.close();
     }
 }

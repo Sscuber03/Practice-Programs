@@ -1,7 +1,7 @@
 import java.util.*;
 class Daycalc
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter date in ddmmyyyy format");
@@ -28,6 +28,7 @@ class Daycalc
         od+=d;
         od%=7;
         System.out.println(w[od-1]);
+        sc.close();
     }
 }
 

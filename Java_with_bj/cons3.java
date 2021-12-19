@@ -20,7 +20,7 @@ public class cons3
     {
         System.out.println(p);
     }
-    public static void main()
+    public static void main(String args[])
     {
         cons3 ob1=new cons3();
         cons3 ob2=new cons3(5,10);

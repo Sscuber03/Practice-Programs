@@ -1,6 +1,6 @@
 class Convert
 { //Starting class
-    public static void main()
+    public static void main(String args[])
     { //Starting main method
         int a=(int)(Math.random()*(200-100))+100;//Generating a random number
         int c=0,c1,c2,c3,d=0,e=0,f=0;

@@ -1,7 +1,7 @@
 import java.util.*;
 class Day
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the first number");
@@ -24,6 +24,7 @@ class Day
             default:
             System.out.println("Wrong choice!!");
         }
+        sc.close();
     }
 }
 

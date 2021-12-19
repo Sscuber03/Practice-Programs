@@ -1,4 +1,4 @@
-import java.util.*;
+
 class Complex
 {
     double real,imag;
@@ -21,7 +21,7 @@ class Complex
         return t;
     }
 
-    public static void main()
+    public static void main(String args[])
     {
         Complex n1=new Complex(2.3,4.5);
         Complex n2=new Complex(3.4,5.0);

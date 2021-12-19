@@ -1,7 +1,7 @@
 import java.util.*;//Importing Scanner class
 class Consecutive_sum
 { //Starting class
-    public static void main()
+    public static void main(String args[])
     {//Starting main
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number");

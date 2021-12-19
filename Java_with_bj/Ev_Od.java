@@ -54,7 +54,7 @@ class Ev_Od
         return ret;
     }
 
-    public static void main()
+    public static void main(String args[])
     {
         int ar[]=new int[8];
         Ev_Od obj=new Ev_Od();
@@ -69,6 +69,7 @@ class Ev_Od
         {
             System.out.println(ar[i]);
         }
+        sc.close();
     }
 }
 

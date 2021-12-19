@@ -34,7 +34,7 @@ class Dtoany
         return res;
     }
 
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number to convert it from decimal to any base");
@@ -54,6 +54,7 @@ class Dtoany
             q=obj.hi(a,z);
             System.out.println(a+" in base "+z+" is = "+q);
         }
+        sc.close();
     }
 }
 
