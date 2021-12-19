@@ -24,7 +24,7 @@ public class Evil_no
         }
         return c;
     }
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number to check if it is an Evil number or not");
@@ -44,6 +44,7 @@ public class Evil_no
             else
             System.out.println("Not an Evil number");
         }
+        sc.close();
     }
 }
 
