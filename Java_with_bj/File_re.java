@@ -3,7 +3,8 @@ class File_re
 {
     public static void main(String args[])throws IOException
     {
-        BufferedReader inp = new BufferedReader(new InputStreamReader(System.in));
+        //BufferedReader inp = new BufferedReader(new InputStreamReader(System.in));
+        //check if it is correct
         String s;
         FileReader std = new FileReader("Data.txt");
         BufferedReader mat = new BufferedReader(std);

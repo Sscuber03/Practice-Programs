@@ -7,6 +7,8 @@ class Ev_Od_2
     {
         l=Digitc(n);
         a=new int[l];
+        return l;
+        //Have to check it thourougly
     }
     int[] Arr(int n,int l)
     {
