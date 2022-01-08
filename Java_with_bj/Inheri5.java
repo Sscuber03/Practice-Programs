@@ -1,5 +1,4 @@
 //Heirarchical
-import java.io.*;
 class one
 {
     public int a,b;
