@@ -8,6 +8,7 @@ class Exception1
         {
             System.out.println("Enter a integer value");
             int a=Integer.parseInt(br.readLine());
+            System.out.println(a);
         }
         catch(Exception e)
         {

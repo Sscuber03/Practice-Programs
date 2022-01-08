@@ -1,4 +1,3 @@
-import java.net.URLDecoder;
 import java.util.*;
 
 class VaultDoor5 {
@@ -13,6 +12,7 @@ class VaultDoor5 {
 	} else {
 	    System.out.println("Access denied!");
         }
+        scanner.close();
     }
 
     // Minion #7781 used base 8 and base 16, but this is base 64, which is

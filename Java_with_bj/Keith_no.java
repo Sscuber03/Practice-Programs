@@ -56,6 +56,7 @@ class Keith_no
         }
         if(f==0)//Checking if the number is not a Keith number
         System.out.println("The given number is not a Keith Number");
+        sc.close();
     }//End of main method
 }//End of class
     

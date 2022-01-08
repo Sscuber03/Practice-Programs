@@ -55,5 +55,6 @@ class Stack
                 System.out.println("Wrong choice!");
             }
         }
+        sc.close();
     }
 }

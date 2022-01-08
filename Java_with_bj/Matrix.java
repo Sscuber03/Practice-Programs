@@ -29,6 +29,7 @@ class Matrix
                 arr[i][j]=sc.nextInt();
             }
         }
+        sc.close();
     }
 
     Matrix Add(Matrix A)//Method to add two matrices and return in object form
@@ -79,6 +80,7 @@ class Matrix
             System.out.println("The Sum of the Two Matices");
             C.display();//Calling method to print out the calculated matrix
         }
+        s.close();
     }//End of main method
 }//End of class
 

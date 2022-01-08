@@ -47,6 +47,7 @@ class Matmultiimp
             }
             System.out.println();
         }
+        sc.close();
     }
 }
 

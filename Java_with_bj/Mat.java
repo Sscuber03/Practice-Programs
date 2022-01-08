@@ -30,6 +30,7 @@ class Mat
             }
             System.out.println();
         }
+        sc.close();
     }
 }
 

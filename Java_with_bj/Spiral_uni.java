@@ -40,7 +40,6 @@ class Spiral_uni
             }
             System.out.println();
         }
-        int rot[][]=new int[n][n];
-        
+        sc.close();
     }
 }

@@ -16,6 +16,7 @@ class Matrix_exam
                 a[i][j]=sc.nextInt();
             }
         }
+        sc.close();
     }
 
     public void display(int[][] b,int n)//Method to display inputed matrix using one iteratin statement
@@ -48,7 +49,7 @@ class Matrix_exam
         }
     }
 
-    public static void right_uptriangle(int[][] a,int n)//Method to print the upper right triangle of the matrix 
+    public void right_uptriangle(int[][] a,int n)//Method to print the upper right triangle of the matrix 
     {
         System.out.println("Upper Right triangle: ");
         for(int i=0;i<n;i++)

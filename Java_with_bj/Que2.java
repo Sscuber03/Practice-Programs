@@ -80,6 +80,7 @@ class Que2
                 obj.display();
                 break;
                 case 4:
+                sc.close();
                 System.exit(0);
                 default:
                 System.out.println("Wrong choice!!");

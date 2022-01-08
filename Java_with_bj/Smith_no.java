@@ -80,5 +80,6 @@ class Smith_no
         }
         if(f==0)
         System.out.println("There are no Smith number in this range");
+        sc.close();
     }
 }

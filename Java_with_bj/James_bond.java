@@ -32,6 +32,7 @@ class James_bond
         }
         s=s.toUpperCase();
         System.out.println(s);
+        sc.close();
     }
 }
 

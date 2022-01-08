@@ -12,5 +12,6 @@ class Word2
             String q=ss.nextToken();
             System.out.println(q);
         }
+        sc.close();
     }
 }

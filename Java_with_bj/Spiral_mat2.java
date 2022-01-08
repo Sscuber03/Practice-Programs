@@ -65,6 +65,7 @@ class Spiral_mat2
                 System.out.print(r[i][j]+"\t");
             }
             System.out.println();
-        }                
+        } 
+        sc.close();               
     }
 }

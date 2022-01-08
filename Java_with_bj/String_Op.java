@@ -8,6 +8,7 @@ class String_Op
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter sentence ending with fullstop");
         txt=sc.nextLine();
+        sc.close();
     }
 
     char caseConvert(char ch)//Method to convert the case of the argument 

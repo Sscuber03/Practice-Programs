@@ -55,6 +55,7 @@ class Word
         if(d>=1)
             x=x+obj.change(d);
         System.out.println(x);
+        sc.close();
     }
 }
 

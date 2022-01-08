@@ -92,6 +92,7 @@ class Roman
             }
         }
         System.out.println(s);
+        sc.close();
     }
 }
 

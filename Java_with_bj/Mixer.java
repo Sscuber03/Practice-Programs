@@ -32,6 +32,7 @@ class Mixer
                 continue;
             }
         }
+        sc.close();
     }
 
     Mixer mix(Mixer A)//Method to mix two ascending arrays in ascending order
@@ -93,5 +94,6 @@ class Mixer
         System.out.println();
         System.out.println("The resultant array");
         ob3.display();//Calling method to print out the resultant array
+        s.close();
     }//End of main method
 }//End of class

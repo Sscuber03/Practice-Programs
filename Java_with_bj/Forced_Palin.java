@@ -93,5 +93,6 @@ class Forced_Palin
             System.out.println(in);
             obj.wrdext(in);
         }
+        sc.close();
     }
 }

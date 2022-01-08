@@ -44,5 +44,6 @@ class Mat_pattern
             }
             System.out.println();
         }
+        sc.close();
     }//End of main method
 }//End of class

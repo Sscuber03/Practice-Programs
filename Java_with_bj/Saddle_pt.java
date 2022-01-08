@@ -37,6 +37,7 @@ class Saddle_pt
         }
         if (f==0)//Checking if no Saddle point found
         System.out.println("No Saddle Point found");
+        sc.close();
     }//End of main method
     int minArr(int ar[][], int b)//Method to find the minimum element of the row
     {

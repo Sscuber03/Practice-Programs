@@ -7,6 +7,7 @@ class String_App
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a String of maximum length of 100 characters");
         txt=sc.nextLine();
+        sc.close();
     }
     char case_Convert(int n)//Method to convert the letter according to the conditions
     {

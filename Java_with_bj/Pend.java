@@ -38,6 +38,7 @@ class Pend
         {
             System.out.print(b[p]+",");
         }
+        sc.close();
     }
 }
 

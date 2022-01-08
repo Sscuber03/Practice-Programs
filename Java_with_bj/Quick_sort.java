@@ -36,6 +36,7 @@ class Quick_sort
         System.out.println("Sorted array");
         for(int i=0;i<n;i++)
         System.out.println(ar[i]);
+        sc.close();
     }
 }
 

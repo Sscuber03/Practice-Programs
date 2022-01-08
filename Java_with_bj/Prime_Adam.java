@@ -60,5 +60,6 @@ class Prime_Adam
             System.out.println();
         }
         System.out.println("Frequency of the Prime-Adam integers: "+c);
+        sc.close();
     }
 }

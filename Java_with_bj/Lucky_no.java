@@ -41,5 +41,6 @@ class Lucky_no
         {
             System.out.print(a[i]+" ");
         }
+        sc.close();
     }
 }

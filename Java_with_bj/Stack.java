@@ -29,6 +29,7 @@ class Stack
             int n=s.nextInt();
             a[++t]=n;
         }
+        s.close();
     }
 
     void pop()//Method to pop out an element from the stack
@@ -85,5 +86,6 @@ class Stack
                 System.out.println("Wrong Choice!!");//Output for wrong choice
             }
         }
+        sc.close();
     }//End of main method
 }//End of class

@@ -45,6 +45,7 @@ class Pendulum_sort
         {
             System.out.print(b[i]+" ");
         }
+        sc.close();
     }//End of main
 }//End of class
 

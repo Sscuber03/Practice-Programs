@@ -60,6 +60,7 @@ class Trans_mirror
             }
             System.out.println();
         }
+        sc.close();
     }//End of main
 }//End of class
 

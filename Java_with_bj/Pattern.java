@@ -34,7 +34,6 @@ class Pattern
             m=j;
             for(int k=1;k<=j;k++)
             {
-                int l=(int)Math.log10(m)+1;
                 System.out.print(m+" ");
                 if (k<j)
                 {

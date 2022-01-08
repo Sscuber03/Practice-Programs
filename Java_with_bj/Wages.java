@@ -40,5 +40,6 @@ class Wages extends Worker
         int z=sc.nextInt();//Taking user input of the overtime pay
         Wages obj=new Wages(s,x,y,z);//creating object of this class
         obj.display();//Calling the display method of this class
+        sc.close();
     }//End of main method
 }//End of daughter class

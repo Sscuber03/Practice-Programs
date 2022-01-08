@@ -75,6 +75,7 @@ public class Numbers
                 if (palindrome(n)==true)
                     palindrome+=" "+n;
             }
+            br.close();
         }
         catch (Exception e)
         {

@@ -61,5 +61,6 @@ class Que_l
                 System.out.println("Wrong choice!");
             }
         }
+        sc.close();
     }
 }  

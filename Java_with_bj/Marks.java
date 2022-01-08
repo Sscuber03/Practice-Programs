@@ -17,6 +17,7 @@ class Marks extends Student
         super.getData();//Calling super class to call the getData method of the base class
         System.out.println("Enter the total marks");
         tot=s.nextInt();//Taking user input of the total marks
+        s.close();
     }
     void compute()//Method to calculate the grade according to the marks given
     {

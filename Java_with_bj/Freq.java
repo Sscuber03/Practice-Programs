@@ -43,5 +43,6 @@ class Freq
         {
             System.out.println(b[l]+"\t"+c[l]);
         }
+        sc.close();
     }
 }

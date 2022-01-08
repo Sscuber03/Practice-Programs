@@ -11,6 +11,7 @@ public class Series
         n=sc.nextInt();
         System.out.println("Enter value of x");
         x=sc.nextInt();
+        sc.close();
     }
 
     double calculate(int a,int b)//Method to calculate the value of a to the power b

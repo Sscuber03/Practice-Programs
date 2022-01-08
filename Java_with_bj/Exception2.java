@@ -9,5 +9,6 @@ class Exception2
         System.out.println("Ok");
         else
         System.out.println("Wrong input!");
+        sc.close();
     }
 }

@@ -52,6 +52,7 @@ class Gold_bach
                 }
             }
         }
+        sc.close();
     }
 }
 

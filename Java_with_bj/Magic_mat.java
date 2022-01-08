@@ -53,5 +53,6 @@ class Magic_mat
                 System.out.println();
             }
         }
+        sc.close();
     }
 }

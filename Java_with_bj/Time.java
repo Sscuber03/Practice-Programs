@@ -101,5 +101,6 @@ class Time
         {
             obj.display();
         }
+        sc.close();
     }
 }

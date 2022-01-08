@@ -30,6 +30,7 @@ class Queue
             a[r]=s.nextInt();
             r++;
         }
+        s.close();
     }
     void dequeue()//Method to take out an element from the queue
     {
@@ -83,5 +84,6 @@ class Queue
                 System.out.println("Wrong choice!!");//Output for qrong choice
             }
         }
+        sc.close();
     }//End of main method
 }//End of class

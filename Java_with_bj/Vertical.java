@@ -102,5 +102,6 @@ class Vertical
         obj.wrdext();//Calling method to extract the words in the array as elements
         obj.display();//Calling method to display the words in a vertical manner
         obj.chk();//Calling method to check if two consecutive words are ending with the same letter/number
+        sc.close();
     }//End of main method
 }//End of class

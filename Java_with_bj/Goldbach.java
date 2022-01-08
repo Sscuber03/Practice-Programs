@@ -36,6 +36,7 @@ class Goldbach
                 p+=2;
             }
         }
+        sc.close();
     }
     boolean isPrime(int n)//Method to check if the given number is prime or not
     {

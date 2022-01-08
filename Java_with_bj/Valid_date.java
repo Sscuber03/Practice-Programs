@@ -19,5 +19,6 @@ class Valid_date
             System.out.println("Inputed date is not valid");//Printing output
         else
             System.out.println("Inputed date is a valid date");
+        sc.close();
     }//End of main
 }//End of class

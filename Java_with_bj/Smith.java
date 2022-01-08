@@ -62,5 +62,6 @@ class Smith
             else
                 System.out.println("Given number is not a Smith number");
         }
+        sc.close();
     }
 }

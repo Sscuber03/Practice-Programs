@@ -44,6 +44,7 @@ class Ev_Od_2
         {
             System.out.println(a[i]);
         }
+        sc.close();
     }
 }
 

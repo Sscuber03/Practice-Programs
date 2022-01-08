@@ -38,5 +38,6 @@ class Freq_2
                 System.out.println(a[j]+"\t"+count);
             }
         }
+        sc.close();
     }
 }

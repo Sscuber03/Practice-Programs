@@ -49,6 +49,7 @@ class Textshift
             }
         }
         System.out.println("DECODED TEXT: "+res);//Printing out the decoded text
+        sc.close();
     }
 }
 

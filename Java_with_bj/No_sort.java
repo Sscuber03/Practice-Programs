@@ -74,6 +74,7 @@ class No_sort
                 }
             }
         }
+        sc.close();
     }//End of main emthod
 }//End of class
 

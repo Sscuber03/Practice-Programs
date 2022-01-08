@@ -161,5 +161,6 @@ class Sentence
         obj.sep(s);
         obj.sort();
         obj.display();
+        sc.close();
     }//End of main method
 }//End of class

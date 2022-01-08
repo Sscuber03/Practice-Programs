@@ -35,6 +35,7 @@ class Roman2
             }
             System.out.println("The roman equivalent of the inputed number is "+s);//Printing out the numeral
         }
+        sc.close();
     }//End of main method
 }//End of class
 

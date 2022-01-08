@@ -18,6 +18,7 @@ class Student
         name=sc.nextLine();
         DOB=sc.nextLine();
         roll=sc.nextInt();
+        sc.close();
     }
     void display()//Method to print student details
     {
