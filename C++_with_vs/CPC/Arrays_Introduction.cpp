@@ -11,6 +11,7 @@ int main()
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
 
     int n;
+    cout << "Enter the size of the array" << endl;
     cin >> n;
     int arr[n];
     for(int i=0;i<n;i++)
