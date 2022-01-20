@@ -17,7 +17,7 @@ int main()
         t=((t*(-1)*x*x)/((2*i)*(2*i+1)));
         sum+=t;
     }
-    printf(" The value of the Sin(%f) = %.4f" ,x,sum);
+    printf("The value of the Sin(%f) = %.4f" ,x,sum);
     getch();
     return 0;
 }
