@@ -53,13 +53,13 @@ int main()
 {
     int ibase,fbase;
     char * ptr;
-    printf("enter the initial base=");
+    printf("enter the initial base= ");
     scanf("%d",&ibase);
-    printf("enter the final base=");
+    printf("enter the final base= ");
     scanf("%d",&fbase);
     char str[100];
     fflush(stdin);
-    printf("enter the number=");
+    printf("enter the number= ");
     gets(str);
     char* str1;
     int x,y,z;
@@ -79,17 +79,17 @@ int main()
             case 1:
             x=atoi(str);
             str1=dec_to_any(x,fbase);
-            printf("the resultant number is=");
+            printf("the resultant number is= ");
             puts(str1);
             break;
             case 2:
             y=any_to_dec(str,ibase);
-            printf("the resultant number is=%d",y);
+            printf("the resultant number is= %d",y);
             break;
             case 3:
             z=any_to_dec(str,ibase);
             ptr=dec_to_any(z,fbase);
-            printf("the resultant number is=");
+            printf("the resultant number is= ");
             puts(ptr);
             break;
             default:
