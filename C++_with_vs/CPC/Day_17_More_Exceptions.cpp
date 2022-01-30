@@ -22,12 +22,12 @@ class Calculator
 int main()
 {
     Calculator myCalculator=Calculator();
-    int T,n,p;
+    int T,na,pa;
     cin>>T;
     while(T-->0){
-      if(scanf("%d %d",&n,&p)==2){
+      if(scanf("%d %d",&na,&pa)==2){
          try{
-               int ans=myCalculator.power(n,p);
+               int ans=myCalculator.power(na,pa);
                cout<<ans<<endl; 
          }
          catch(exception& e){
