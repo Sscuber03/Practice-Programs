@@ -32,5 +32,6 @@ public class Java_Arraylist
                 System.out.println("ERROR!");
             }
         }
+        sc.close();
     }
 }
