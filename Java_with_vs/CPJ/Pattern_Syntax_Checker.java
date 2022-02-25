@@ -1,4 +1,6 @@
-import java.util.Scanner;
+package CPJ;
+
+import java.util.*;
 import java.util.regex.*;
 
 public class Pattern_Syntax_Checker
