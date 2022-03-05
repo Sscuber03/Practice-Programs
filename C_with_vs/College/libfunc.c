@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>//header file 
+#include<limits.h>//INT_MAX  INT_MIN CHAR_MIN  CHAR_MAX
 
 int main()
 {
@@ -13,5 +14,9 @@ int main()
     printf("%f\n" , cos(rad));
     printf("%d\n" , abs(i));
     printf("%d\n" , rand()%6+1);
+
+    printf("%d\n", sizeof(i));//prints size of the variable in bytes
+    
+
     return 0;
 }
