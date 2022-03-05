@@ -8,6 +8,6 @@ int main(){
     printf("Enter a two numbers: ");
     scanf("%d %d", &n1, &n2);//double - lf
     ans = (float)n1/n2;
-    printf("Answer of division= %f",ans);
+    printf("Answer of division= %.2f",ans);
     return 0;
 }
