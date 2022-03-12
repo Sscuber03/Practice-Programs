@@ -1,3 +1,6 @@
+import time
+start_time = time.time()
+
 g = {"A": 10,"AB": 9, "B": 8,"BC": 7,"C": 6, "CD": 5, "D": 4}
 
 lines = []
@@ -30,3 +33,5 @@ for i in sorted(d.keys()):
         print("{}~{}~{}".format(i,d[i],res))
     else:
         print("{}~{}~0".format(i,d[i]))
+
+print('Process finished --- %s seconds ---' % (time.time() - start_time))
