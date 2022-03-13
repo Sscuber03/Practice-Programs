@@ -1,10 +1,20 @@
-def is_vowel(c):
-    cc = c.lower()
-    return ((cc == 'a') or (cc == 'e') or(cc == 'i') or (cc == 'o') or (cc == 'u'))
+from datetime import datetime
+n=int(input())
+res = ""
+for i in range(n):
+    res = ""
+    tt=input()
+    nn=int(input())
+    for j in range(nn):
+        str1,str2 = input().split(',')
+        dt1 = datetime.strptime(str1,'%I:%M %p')
+        dt2 = datetime.strptime(str2,' %I:%M %p')
+        dt = datetime.strptime(tt,'%I:%M %p')
+        if dt1<=dt and dt<=dt2:
+            res += "1"
+        else:
+            res += "0"
+    print(res)
+        
+        
 
-def replaceV(s):
-    i=0
-    while(i<len(s)-2):
-        if(is_vowel(s[i]) and s[i].lower() == s[i+1].lower() and s[i].lower() == s[i+2].lower()):
-            s = s[:i] + '_' + s[i+3:]
-    return s
