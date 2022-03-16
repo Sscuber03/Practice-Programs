@@ -1,0 +1,28 @@
+This folder contains all the coding related stuff which is taught in the CSDM classes held on every wednesday.
+The teacher's name - Arup kumar bhattacharya
+Start date - 16-03-2022
+Every file will have the date on top on which it was taught, and the language taught is C
+
+Ref Books - 1. Mastering C   --   Venu Gopal
+            2. C Programming --   Manas Ghosh
+            3. Ansi C        --   Balaguruswamy
+            4. C             --   Jayapoovan
+            5. C             --   Gotfred
+
+Areas - 1. Pointers
+        2. Functions
+        3. File handling
+
+Syllabus - 1. Algorithm and Flowcharts
+           2. Data Types
+           3. Operators
+           4. Conditional Statements : if else ; switch case ; ternary Operators
+           5. Conditional loop : for ; while ; do while
+           6. Array : 1D ; 2D ; 3D
+           7. Pointers ; Difference between Array and Pointers
+           8. Functions ; Recursion
+           9. Storage class ; Preprocessor
+           10. Structure and Union
+           11. File handling
+
+
