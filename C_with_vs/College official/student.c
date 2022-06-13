@@ -14,7 +14,7 @@ int main()
     printf("Enter no. of employee details you want to store : ");
     scanf("%d", &n);
 
-    struct employee man[50];
+    struct employee man[n];
 
     for (int i = 0; i < n; i++)
     {
