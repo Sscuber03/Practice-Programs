@@ -1,0 +1,10 @@
+Algorithm - fnDeleteFrom_1D(array,n,k)
+Purpose - This algorithm deletes an element from one dimentional array.
+Input - array[] is an one dimentional array with n elements. Data at position k needs to be deleted.
+Output - The array with n-1 elements.
+Pseudo code - 
+{
+    for(i=k;i<n-1;i++)
+        array[i]=array[i+1];
+    n=n-1;
+}

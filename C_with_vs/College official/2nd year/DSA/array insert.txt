@@ -1,0 +1,11 @@
+Algorithm - fnInsertIn_1D(array,n,k,item)
+Purpose - This algorithm inserts an element into one dimentional array.
+Input - array[] is an one dimentional array with n elements. Data 'item' needs to be inserted in kth position
+Output - The array with n+1 elements.
+Pseudo code - 
+{
+    for(i=n-1;i>=k;i--)
+        array[i+1]=array[i];
+    array[k-1]=item;
+    n=n+1;
+}

@@ -1,0 +1,35 @@
+Pseudo code for generating sparce matrix - 
+{
+    index=0;
+    nonzeroelements = getnonzeroelements();
+    arrsp[index][0]=r;
+    arrsp[index][1]=c;
+    arrsp[index][2]=nonzeroelements;
+    index++;
+    for(i=0;i<r;i++)
+    {
+        for(j=0;j<c;j++)
+        {
+            if(arror[i][j]!=0)
+            {
+                arrsp[index][0]=i;
+                arrsp[index][1]=j;
+                arrsp[index][2]=arror[i][j];
+                index++;
+            }
+        }
+    }
+}
+getnonzeroelements()
+{
+    int counter=0;
+    for(i=0;i<r;i++)
+    {
+        for(j=0;j<c;j++)
+        {
+            if(arror[i][j]!=0)
+                counter++;
+        }
+    }
+    return counter;
+}

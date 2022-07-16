@@ -1,0 +1,28 @@
+Pseudo code for addition - 
+{
+    for(i=0;i<n;i++)
+    {
+        for(j=0;j<m;j++)
+        {
+            c[i][j] = a[i][j] + b[i][j];
+        }
+    }
+}
+
+Pseudo code for multiplication - //r1,c1 row and column of matrix1, r2,c2 row and column of matrix2
+{
+    if(c1==r2)
+    {
+        for(i=0;i<r1;i++)
+        {
+            for(j=0;j<c2;j++)
+            {
+                c[i][j]=0;
+                for(k=0;k<c1;k++)
+                {
+                    c[i][j] += (a[i][k]*b[k][j]);
+                }
+            }
+        }
+    }
+}

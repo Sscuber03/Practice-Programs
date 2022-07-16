@@ -1,0 +1,31 @@
+Header file - 
+cse.h 
+int add(int a,int b)
+{
+    return(a+b);
+}
+
+#include<stdio.h>
+#include"cse.h"
+int main()
+{
+    printf("%d", add(5,15));
+    return 0;
+}
+
+Library file - 
+same cse.c
+
+#include<stdio.h>
+int add(int, int);
+int main(){
+    //call add function normally
+    return 0;
+}
+
+to make library, linux commands as follows
+
+gcc -Wall -c cse.c      //*.c for all c files in current directory
+ar -cvq libcse.a *.o    //library created
+gcc test.c ./libcse.a   //to include library
+./a.out

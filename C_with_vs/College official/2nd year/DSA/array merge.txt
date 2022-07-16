@@ -1,0 +1,18 @@
+Algorithm - fnMerge_1D(array1,array2,n,m)
+Purpose - This algorithm will merge two arrays into one singular array.
+Input - Two 1D arrays, array1 and array2 with n and m number of elements
+Output - a singular array3 of size n+m
+Pseudo code - 
+{
+    int counter = 0;
+    for(i=0;i<n;i++)
+    {
+        array3[counter]=array1[i];
+        counter++;
+    }
+    for(j=0;j<m;j++)
+    {
+        array3[counter]=array2[j];
+        counter++;
+    }
+}

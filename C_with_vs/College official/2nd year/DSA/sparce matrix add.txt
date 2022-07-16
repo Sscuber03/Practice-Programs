@@ -1,0 +1,72 @@
+Pseudo code for sparce matrix addition - 
+{
+    int count1,count2,i=0;j=0;k=0;
+    if(a[0][0]==b[0][0] || a[0][1]==b[0][1])
+    {
+        count1=a[0][2];
+        count2=b[0][2];
+        c[0][0]=a[0][0];
+        c[0][1]=a[0][1];
+        while(i<count1 && j<count2)
+        {
+            if(a[i][0]<b[j[0])
+            {
+                c[k][0]=a[i][0];
+                c[k][1]=a[i][1];
+                c[k][2]=a[i][2];
+                k++;
+                i++;
+            }
+            else if(b[j][0]<a[i][0])
+            {
+                c[k][0]=b[j][0];
+                c[k][1]=b[j][1];
+                c[k][2]=b[j][2];
+                k++;
+                j++;
+            }
+            else if(a[i][1]<b[j[1])
+            {
+                c[k][0]=a[i][0];
+                c[k][1]=a[i][1];
+                c[k][2]=a[i][2];
+                k++;
+                i++;
+            }
+            else if(b[j][1]<a[i][1])
+            {
+                c[k][0]=b[j][0];
+                c[k][1]=b[j][1];
+                c[k][2]=b[j][2];
+                k++;
+                j++;
+            }
+            else
+            {
+                c[k][0]=a[i][0];
+                c[k][1]=a[i][1];
+                c[k][2]=a[i][2]+b[j][2];
+                k++;
+                i++;
+                j++;
+            }
+        }
+        while(i<count1)
+        {
+            c[k][0]=a[i][0];
+            c[k][1]=a[i][1];
+            c[k][2]=a[i][2];
+            k++;
+            i++;
+        }
+        while(j<count2)
+        {
+            c[k][0]=b[j][0];
+            c[k][1]=b[j][1];
+            c[k][2]=b[j][2];
+            k++;
+            j++;
+        }
+        c[0][2]=-1;
+    }
+}
